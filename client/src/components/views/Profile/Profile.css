@@ -1,0 +1,94 @@
+.left-nav {
+  padding-left: 2%;
+  width: 65%;
+  height: 100%;
+  float: left;
+  background-color: white;
+}
+
+.right-nav {
+  padding-left: 2%;
+  width: 33%;
+  height: 100%;
+  float: left;
+  background-color: white;
+}
+
+.my-info {
+  margin-left: 5%;
+  width: 100%;
+  min-height: 40%;
+  margin-bottom: 5%;
+  text-align: left;
+  background-color: white;
+}
+
+.memo {
+  margin-left: 5%;
+  width: 94%;
+  height: 25%;
+  text-align: left;
+  background-color: white;
+}
+
+.info-title {
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 3%;
+  margin-bottom: 10px;
+}
+
+.right-title {
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 5%;
+  margin-bottom: 10px;
+}
+/* 전체카드 감싸는 div */
+.info-div {
+  width: 100%;
+  /* height: 17%; */
+  min-height: 17%;
+  background-color: white;
+  -ms-overflow-style: none;
+}
+.info-div::-webkit-scrollbar {
+  display: none;
+}
+
+.info-myinfo {
+  display: inline-block;
+}
+
+.info-contents {
+  display: flex;
+}
+
+/* 카드 크기 조절 */
+.info-myinfo-contents {
+  text-align: center;
+  padding: 5px 15px 10px 15px;
+  width: 100%;
+  height: 100%;
+  margin: 2% 0 2% 0;
+}
+
+/* 카드 div */
+.infoCard {
+  width: 300px;
+  height: 100%;
+  margin-right: 30px;
+  border-radius: 10%;
+  background-color: #d9d9d9;
+}
+
+.educationInfo {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-left: 5px;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
