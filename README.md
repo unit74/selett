@@ -67,5 +67,3 @@
 ![swagger](./images/swagger.png)
 
 ---
-
-P.S. Repository 변경 작업과 merge 과정에서 커밋 내용이 소실됨..
